@@ -4,7 +4,7 @@ Detect a lang from a string in NodeJS.
 The script is a NodeJS API using Google Translate API to detect toot langage, he return a JSON array.
 
 
-### Endpoint
+## Endpoint
 <table>
 	<thead>
 		<tr>
@@ -21,7 +21,17 @@ The script is a NodeJS API using Google Translate API to detect toot langage, he
 			<td>{"lang": "ISO FORMAT LANG"}</td>
 			<td>GET</td>
 		</tr>
-		</tbody>
-	</table>
+	</tbody>
+</table>
 
+##  Install
+
+```
+git init
+git clone https://github.com/arthurlacoste/detect-lang-server
+cd detect-lang-server
+npm install
+node app
+```
+	
 [Demo here](https://obscure-fjord-89228.herokuapp.com/lang/obrigado)
