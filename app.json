@@ -1,0 +1,8 @@
+{
+  "name": "Detect Lang Server",
+  "description": "Detect a lang from a string.",
+  "repository": "https://github.com/arthurlacoste/detect-lang-server",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
