@@ -1,7 +1,7 @@
 # Detect Lang Server
 Detect a lang from a string in NodeJS.
 
-The script is a NodeJS API using Google Translate API to detect toot langage, he return a JSON array.
+The script is a NodeJS API using a node module called [Franc](https://github.com/wooorm/franc) to detect toot language, he return a JSON array.
 
 
 ## Endpoint
@@ -35,3 +35,13 @@ node app
 ```
 	
 [Demo here](https://obscure-fjord-89228.herokuapp.com/lang/obrigado)
+
+## Main project
+This nodeJS server is a part of [Mastodon Lang Remover](https://github.com/arthurlacoste/mastodon-lang-remover), but you can run it for your own needs.
+
+## Changelog
+
+### 1.0.0
+- Using Franc instead of Google Translate API
+### 0.1.1
+- Initial commit

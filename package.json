@@ -1,10 +1,11 @@
 {
-    "name": "Detect Lang Server",
-    "version": "0.1.1",
-    "dependencies": {
-		"express": "4.15.2",
-		"google-translate-api": "arthurlacoste/google-translate-api"
-    },
-    "author": "Arthur Lacoste <arthak@gmail.com>",
-    "description": "Detect a lang from a string."
+  "name": "detect-lang-server",
+  "version": "0.1.1",
+  "dependencies": {
+    "express": "4.15.2",
+    "franc-min": "3.1.0",
+    "iso-639-3": "1.0.0"
+  },
+  "author": "Arthur Lacoste <arthak@gmail.com>",
+  "description": "Detect a lang from a string."
 }
