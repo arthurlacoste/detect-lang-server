@@ -6,7 +6,7 @@ var iso6393 = require('iso-639-3');
 var port = process.env.PORT || 1337;
 
 app.get('/lang/:phrase', function(req, render) {
-    render.setHeader('Content-Type', 'application/json');
+	render.setHeader('Content-Type', 'application/json');
 	var toot = 	req.params.phrase.toString()
 	.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
 	
@@ -20,7 +20,7 @@ app.get('/lang/:phrase', function(req, render) {
 
 	try {
 		if (langISO6393 == "cmn") {
-				langISO6391 = "zh-CN"; // mandarin detected -> chinese ISO 639-1
+			langISO6391 = "zh-CN"; // mandarin detected -> chinese ISO 639-1
 		} else {
 			iso6393.forEach(function (language) {	
 				if (language.iso6393 !== langISO6393) {
@@ -30,8 +30,8 @@ app.get('/lang/:phrase', function(req, render) {
 				}
 			});
 		}
-			console.log(langISO6391 + "=" + toot) // langue détecté format ISO
-			render.end(JSON.stringify({ lang: langISO6391}));
+		console.log(langISO6391 + "=" + toot) // langue détecté format ISO
+		render.end(JSON.stringify({ lang: langISO6391}));
 	} catch(e) {
 		console.log(e.message);
 	}
@@ -39,5 +39,5 @@ app.get('/lang/:phrase', function(req, render) {
 })
 
 .listen(port, function () {
-  console.log('Listening on localhost:' + port);
+	console.log('Listening on localhost:' + port);
 });
