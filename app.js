@@ -7,7 +7,7 @@ var port = process.env.PORT || 1337;
 
 app.get('/lang/:phrase', function(req, render) {
 	render.setHeader('Content-Type', 'application/json');
-	var toot = 	req.params.phrase.toString()
+	var toot = req.params.phrase.toString()
 	.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
 	
 	var langISO6391 = '';
