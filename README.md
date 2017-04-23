@@ -33,6 +33,12 @@ cd detect-lang-server
 npm install
 node app
 ```
+
+## Install on Docker
+```
+docker build -t art/detect-lang-server github.com/arthurlacoste/detect-lang-server
+docker run -p 8080:1337 -d art/detect-lang-server
+```
 	
 [Demo here](https://obscure-fjord-89228.herokuapp.com/lang/obrigado)
 
