@@ -1,6 +1,10 @@
 {
   "name": "detect-lang-server",
   "version": "0.1.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "4.15.2",
     "franc-min": "3.1.0",
