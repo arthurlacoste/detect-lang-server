@@ -1,4 +1,4 @@
-![travis](http://img.shields.io/travis/arthurlacoste/detect-lang-server.svg)
+[![travis](http://img.shields.io/travis/arthurlacoste/detect-lang-server.svg)](https://travis-ci.org/arthurlacoste/detect-lang-server)
 
 # Detect Lang Server
 
