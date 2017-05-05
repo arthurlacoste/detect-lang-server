@@ -1,7 +1,7 @@
+![travis](http://img.shields.io/travis/arthurlacoste/detect-lang-server.svg)
+
 # Detect Lang Server
 
-[![Build Status](http://img.shields.io/travis/arthurlacoste/detect-lang-server.svg)][travis]
-[![Code Climate](https://img.shields.io/codeclimate/github/arthurlacoste/detect-lang-server.svg)][code_climate]
 Detect a lang from a string in NodeJS.
 
 The script is a NodeJS API using a node module called [Franc](https://github.com/wooorm/franc) to detect toot language, he return a JSON array.
@@ -42,7 +42,7 @@ node app
 docker build -t art/detect-lang-server github.com/arthurlacoste/detect-lang-server
 docker run -p 8080:1337 -d art/detect-lang-server
 ```
-	
+
 [Demo here](https://obscure-fjord-89228.herokuapp.com/lang/obrigado)
 
 ## Main project
