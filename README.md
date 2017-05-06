@@ -1,4 +1,4 @@
-[![travis](http://img.shields.io/travis/arthurlacoste/detect-lang-server.svg)](https://travis-ci.org/arthurlacoste/detect-lang-server)
+[![travis](http://img.shields.io/travis/arthurlacoste/detect-lang-server.svg)](https://travis-ci.org/arthurlacoste/detect-lang-server) [![Coverage Status](https://coveralls.io/repos/github/arthurlacoste/detect-lang-server/badge.svg?branch=master)](https://coveralls.io/github/arthurlacoste/detect-lang-server?branch=master)
 
 # Detect Lang Server
 
